@@ -23,3 +23,33 @@ Ahora agregar los archivos del proyecto
 
 Realizar un commit descriptivo de la version a subir
 "git commit -m "Primera subida""
+
+Enlazar el repositorio en la nube con el local:
+"git remote add origin https://github.com/kevin020-max/react_projrct.git
+git push -u origin main
+
+Luego saldrá que debe iniciar sesion con el navegador:
+Inicie sesion con suus cedenciales del GitHub.
+Listo actualiza el repositorio de la nube
+
+Comprobar el estado del royecto:
+"git status"
+
+(Si aparece algo en rojo significa que el archivo es nuevo o se ha modificado).
+
+Comandos para actualizar el repositorio con la version local:
+git status
+git add .
+ait commit -m "nombre de la version o desripcion del commit"
+git push
+
+Crear Ramas:
+git checkout -b nombre de la rama
+git switch -c nombre de la rama
+git push origin nombre de la rama
+
+ git push --set-upstream origin nombre de la rama
+
+CREAR PROYECTO REACT
+Escoger react
+Escoger Javascript + SWC
