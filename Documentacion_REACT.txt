@@ -1,1 +1,25 @@
 npm create vite@latest
+
+REPOSITORIO GITHUB
+
+Iniciar un repositorio local:
+"git init"
+
+Cambiar el nombre de master a main: 
+"git branch -M main"
+
+Eliminar Cedenciales de otros usuarios
+"Win + s"
+Escribir:"Administrador de credenciales 
+Seleccionar credenciales de windows y luego buscar las cuentas GitHub asociadas y eliminar las credenciales
+Luego de eliminar las credenciales
+
+Configurar usuario local de Git:
+"git config user.email "su_email"
+"git config user.name "su_nombre"
+
+Ahora agregar los archivos del proyecto
+"git add ."
+
+Realizar un commit descriptivo de la version a subir
+"git commit -m "Primera subida""
